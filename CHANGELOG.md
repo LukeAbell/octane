@@ -1,6 +1,58 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v1.3.1...1.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v1.3.9...1.x)
+
+## [v1.3.9](https://github.com/laravel/octane/compare/v1.3.8...v1.3.9) - 2022-11-19
+
+### Changed
+
+- Add `--rpc-host` option for Roadrunner by @matthew-inamdar in https://github.com/laravel/octane/pull/619
+
+### Fixed
+
+- Resolve typo resulting in deprecation notice by @owenvoke in https://github.com/laravel/octane/pull/614
+
+## [v1.3.8](https://github.com/laravel/octane/compare/v1.3.7...v1.3.8) - 2022-11-11
+
+### Fixed
+
+- Prefix rr binary permissions with 0 to specify it as an octal value by @Dylan-Buth in https://github.com/laravel/octane/pull/611
+
+## [v1.3.7](https://github.com/laravel/octane/compare/v1.3.6...v1.3.7) - 2022-11-02
+
+### Changed
+
+- Make IP to bind the server to configurable via env by @xorinzor in https://github.com/laravel/octane/pull/607
+
+## [v1.3.6](https://github.com/laravel/octane/compare/v1.3.5...v1.3.6) - 2022-11-01
+
+### Changed
+
+- Re-do: Configurable Roadrunner log level by @ejulen in https://github.com/laravel/octane/pull/604
+
+### Fixed
+
+- Read port for http server from environment if no port is passed  by @hendrikheil in https://github.com/laravel/octane/pull/605
+
+## [v1.3.5](https://github.com/laravel/octane/compare/v1.3.4...v1.3.5) - 2022-10-26
+
+### Fixed
+
+- Revert "[1.x] Made Roadrunner log level configurable" by @driesvints in https://github.com/laravel/octane/pull/603
+
+## [v1.3.4](https://github.com/laravel/octane/compare/v1.3.3...v1.3.4) - 2022-10-24
+
+## [v1.3.3](https://github.com/laravel/octane/compare/v1.3.2...v1.3.3) - 2022-10-03
+
+### Fixed
+
+- Ignore `Response::create` failed by @sy-records in https://github.com/laravel/octane/pull/590
+
+## [v1.3.2](https://github.com/laravel/octane/compare/v1.3.1...v1.3.2) - 2022-09-30
+
+### Fixed
+
+- Flushes controller on route by @nunomaduro in https://github.com/laravel/octane/pull/589
 
 ## [v1.3.1](https://github.com/laravel/octane/compare/v1.3.0...v1.3.1) - 2022-09-05
 
